@@ -30,7 +30,8 @@ def help_user(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.HELP_USER,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ Contact DEV ⭕️", url="https://t.me/prgofficial")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ Contact DEV ⭕️", url="https://t.me/PredatorHackerzZ")]]),
+                                         ([[InlineKeyboardButton(text="⭕️ CHANNEL ⭕️", url="https://t.me/TeleRoidGroup")], [InlineKeyboardButton(text="🛑 SUPPORT 🛑", url="https://t.me/TeleRoid14")]]) 
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
